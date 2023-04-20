@@ -1,37 +1,41 @@
 {
-  "name": "algorithms-in-javascript",
-  "version": "1.0.0",
-  "description": "Exercises in Typescript",
-  "main": "src/*",
-  "scripts": {
-    "dev": "npx tsc --watch",
-    "lint": "eslint src/**/*.ts",
-    "format": "prettier --write '{*.ts,src/**/*.{tsx}}'"
-  },
-  "keywords": [
-    "typescript",
-    "javascript",
-    "algorithms",
-    "exercises"
-  ],
-  "author": "efrencodes <efrencodes@gmail.com> (https://efrencodes.com)",
-  "license": "MIT",
-  "repository": {
-    "type": "",
-    "url": ""
-  },
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "",
-  "devDependencies": {
-    "@types/node": "^17.0.35",
-    "@typescript-eslint/eslint-plugin": "^5.25.0",
-    "@typescript-eslint/parser": "^5.25.0",
-    "eslint": "^8.16.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.6.2",
-    "typescript": "^4.6.4"
-  }
+    "name": "algorithms-in-javascript",
+    "version": "1.0.0",
+    "description": "Exercises in Typescript",
+    "main": "src/*",
+    "scripts": {
+        "dev": "npx tsc --watch",
+        "lint": "eslint src/**/*.ts",
+        "format": "prettier --write '{*.ts,src/**/*.{tsx}}'",
+        "test": "jest"
+    },
+    "keywords": [
+        "typescript",
+        "javascript",
+        "algorithms",
+        "exercises"
+    ],
+    "author": "efrencodes <efrencodes@gmail.com> (https://efrencodes.com)",
+    "license": "MIT",
+    "repository": {
+        "type": "",
+        "url": ""
+    },
+    "bugs": {
+        "url": ""
+    },
+    "homepage": "",
+    "devDependencies": {
+        "@types/jest": "^29.5.1",
+        "@types/node": "^17.0.35",
+        "@typescript-eslint/eslint-plugin": "^5.25.0",
+        "@typescript-eslint/parser": "^5.25.0",
+        "eslint": "^8.16.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "jest": "^29.5.0",
+        "prettier": "^2.6.2",
+        "ts-jest": "^29.1.0",
+        "typescript": "^4.6.4"
+    }
 }
